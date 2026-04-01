@@ -1,6 +1,6 @@
 <?php
 
-namespace Pixelpeter\FilamentLanguageTabs\Tests\Fixtures;
+namespace Skwirrel\FilamentLanguageTabs\Tests\Fixtures;
 
 use Filament\Schemas\Concerns\InteractsWithSchemas;
 use Filament\Schemas\Contracts\HasSchemas;

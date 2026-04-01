@@ -1,6 +1,6 @@
 <?php
 
-namespace Pixelpeter\FilamentLanguageTabs\Forms\Components;
+namespace Skwirrel\FilamentLanguageTabs\Forms\Components;
 
 use Closure;
 use Filament\Forms\Components\Hidden;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Pixelpeter\FilamentLanguageTabs\Tests;
+namespace Skwirrel\FilamentLanguageTabs\Tests;
 
 use Illuminate\Support\Facades\Config;
-use Pixelpeter\FilamentLanguageTabs\Tests\Fixtures\FormTester;
+use Skwirrel\FilamentLanguageTabs\Tests\Fixtures\FormTester;
 
 use function Pest\Livewire\livewire;
 
@@ -43,7 +43,6 @@ it('will set a field as required when given in required_locales', function ($fie
         ->assertFormFieldExists("language_tabs.tab_{$locale}.{$field}", function ($field) {
             return $field->isRequired();
         });
-
 })->with([
     'headline.de',
     'headline.en',

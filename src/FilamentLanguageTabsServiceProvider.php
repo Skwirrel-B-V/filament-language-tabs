@@ -1,6 +1,6 @@
 <?php
 
-namespace Pixelpeter\FilamentLanguageTabs;
+namespace Skwirrel\FilamentLanguageTabs;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

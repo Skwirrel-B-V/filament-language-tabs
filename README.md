@@ -125,7 +125,7 @@ public function up(): void
 ```php
 // app/Filament/Resources/Posts/Schemas/PostForm.php
 ...
-use Pixelpeter\FilamentLanguageTabs\Forms\Components\LanguageTabs;
+use Skwirrel\FilamentLanguageTabs\Forms\Components\LanguageTabs;
 
 class PostForm
 {
@@ -149,7 +149,7 @@ class PostForm
 ```php
 // app/Filament/Resources/PostResource.php
 ...
-use Pixelpeter\FilamentLanguageTabs\Forms\Components\LanguageTabs;
+use Skwirrel\FilamentLanguageTabs\Forms\Components\LanguageTabs;
 
 class PostResource extends Resource
 {
@@ -172,7 +172,7 @@ class PostResource extends Resource
 ```php
 // app/Filament/Resources/PostResource.php
 ...
-use Pixelpeter\FilamentLanguageTabs\Forms\Components\LanguageTabs;
+use Skwirrel\FilamentLanguageTabs\Forms\Components\LanguageTabs;
 
 class PostResource extends Resource
 {

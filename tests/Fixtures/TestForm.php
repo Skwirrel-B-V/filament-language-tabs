@@ -1,11 +1,11 @@
 <?php
 
-namespace Pixelpeter\FilamentLanguageTabs\Tests\Fixtures;
+namespace Skwirrel\FilamentLanguageTabs\Tests\Fixtures;
 
 use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Schema;
-use Pixelpeter\FilamentLanguageTabs\Forms\Components\LanguageTabs;
+use Skwirrel\FilamentLanguageTabs\Forms\Components\LanguageTabs;
 
 class TestForm
 {

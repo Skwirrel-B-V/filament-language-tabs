@@ -2,7 +2,7 @@
 
 // tests/TestCase.php
 
-namespace Pixelpeter\FilamentLanguageTabs\Tests;
+namespace Skwirrel\FilamentLanguageTabs\Tests;
 
 use Filament\Facades\Filament;
 use Filament\FilamentServiceProvider;
@@ -13,7 +13,7 @@ use Illuminate\Support\MessageBag;
 use Illuminate\Support\ViewErrorBag;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Pixelpeter\FilamentLanguageTabs\FilamentLanguageTabsServiceProvider;
+use Skwirrel\FilamentLanguageTabs\FilamentLanguageTabsServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
