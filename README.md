@@ -1,15 +1,15 @@
-![](https://banners.beyondco.de/Filament%20Language%20Tabs.png?theme=light&packageManager=composer+require&packageName=pixelpeter%2Ffilament-language-tabs&pattern=architect&style=style_1&description=Group+multilingual+fields+into+tabs&md=1&showWatermark=0&fontSize=100px&images=translate)
+![](https://banners.beyondco.de/Filament%20Language%20Tabs.png?theme=light&packageManager=composer+require&packageName=Skwirrel-B-V%2Ffilament-language-tabs&pattern=architect&style=style_1&description=Group+multilingual+fields+into+tabs&md=1&showWatermark=0&fontSize=100px&images=translate)
 
 # Group multilingual fields into tabs
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/pixelpeter/filament-language-tabs.svg?style=flat-square&t=123)](https://packagist.org/packages/pixelpeter/filament-language-tabs)
-[![Total Downloads](https://img.shields.io/packagist/dt/pixelpeter/filament-language-tabs.svg?style=flat-square)](https://packagist.org/packages/pixelpeter/filament-language-tabs)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Skwirrel-B-V/filament-language-tabs.svg?style=flat-square&t=123)](https://packagist.org/packages/Skwirrel-B-V/filament-language-tabs)
+[![Total Downloads](https://img.shields.io/packagist/dt/Skwirrel-B-V/filament-language-tabs.svg?style=flat-square)](https://packagist.org/packages/Skwirrel-B-V/filament-language-tabs)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Coverage Status](https://coveralls.io/repos/github/pixelpeter/filament-language-tabs/badge.svg?branch=main)](https://coveralls.io/github/pixelpeter/filament-language-tabs?branch=main)
-[![Tests](https://github.com/pixelpeter/filament-language-tabs/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/pixelpeter/filament-language-tabs/actions/workflows/run-tests.yml)
-[![Fix PHP code style issues](https://github.com/pixelpeter/filament-language-tabs/actions/workflows/fix-php-code-style-issues.yml/badge.svg)](https://github.com/pixelpeter/filament-language-tabs/actions/workflows/fix-php-code-style-issues.yml)
-[![PHPStan](https://github.com/pixelpeter/filament-language-tabs/actions/workflows/phpstan.yml/badge.svg)](https://github.com/pixelpeter/filament-language-tabs/actions/workflows/phpstan.yml)
-[![dependabot-auto-merge](https://github.com/pixelpeter/filament-language-tabs/actions/workflows/dependabot-auto-merge.yml/badge.svg)](https://github.com/pixelpeter/filament-language-tabs/actions/workflows/dependabot-auto-merge.yml)
+[![Coverage Status](https://coveralls.io/repos/github/Skwirrel-B-V/filament-language-tabs/badge.svg?branch=main)](https://coveralls.io/github/Skwirrel-B-V/filament-language-tabs?branch=main)
+[![Tests](https://github.com/Skwirrel-B-V/filament-language-tabs/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/Skwirrel-B-V/filament-language-tabs/actions/workflows/run-tests.yml)
+[![Fix PHP code style issues](https://github.com/Skwirrel-B-V/filament-language-tabs/actions/workflows/fix-php-code-style-issues.yml/badge.svg)](https://github.com/Skwirrel-B-V/filament-language-tabs/actions/workflows/fix-php-code-style-issues.yml)
+[![PHPStan](https://github.com/Skwirrel-B-V/filament-language-tabs/actions/workflows/phpstan.yml/badge.svg)](https://github.com/Skwirrel-B-V/filament-language-tabs/actions/workflows/phpstan.yml)
+[![dependabot-auto-merge](https://github.com/Skwirrel-B-V/filament-language-tabs/actions/workflows/dependabot-auto-merge.yml/badge.svg)](https://github.com/Skwirrel-B-V/filament-language-tabs/actions/workflows/dependabot-auto-merge.yml)
 
 This package is a Filament plugin that allows you to group multilingual fields into tabs. It can be configured which
 languages are required to be filled out.
@@ -20,7 +20,8 @@ languages are required to be filled out.
 
 | Filament | branch/tag |
 |----------|------------|
-| v4.x     | main       |
+| v5.x     | main       |
+| v4.x     | v3.x       |
 | v3.x     | v2.x       |
 | v2.x     | v1.x       |
 
@@ -29,7 +30,7 @@ languages are required to be filled out.
 Install the package via composer:
 
 ```bash
-composer require pixelpeter/filament-language-tabs
+composer require skwirrel/filament-language-tabs
 ```
 
 Publish the config file with:
@@ -243,7 +244,8 @@ Please review [the security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [pixelpeter](https://github.com/pixelpeter)
+- [Skwirrel-B-V](https://github.com/Skwirrel-B-V)
+- Thanks to [pixelpeter](https://github.com/pixelpeter) for starting this project
 - Thanks to [ralphjsmit](https://github.com/ralphjsmit) for the inspiration of creating
   a [TestableForm](https://github.com/ralphjsmit/laravel-filament-components/blob/main/tests/Support/TestableForm.php)
   to help with testing this component
