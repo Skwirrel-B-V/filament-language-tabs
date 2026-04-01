@@ -1,4 +1,4 @@
-![](https://banners.beyondco.de/Filament%20Language%20Tabs.png?theme=light&packageManager=composer+require&packageName=Skwirrel-B-V%2Ffilament-language-tabs&pattern=architect&style=style_1&description=Group+multilingual+fields+into+tabs&md=1&showWatermark=0&fontSize=100px&images=translate)
+![](https://banners.beyondco.de/Filament%20Language%20Tabs.png?theme=light&packageManager=composer+require&packageName=skwirrel%2Ffilament-language-tabs&pattern=architect&style=style_1&description=Group+multilingual+fields+into+tabs&md=1&showWatermark=0&fontSize=100px&images=translate)
 
 # Group multilingual fields into tabs
 
